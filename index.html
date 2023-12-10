@@ -19,19 +19,19 @@
                     </div>
                     <ul class="hidden lg:flex items-center justify-between space-x-10">
                         <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                            <a>О нас</a>
+                            <a href="#about">О нас</a>
                         </li>
                         <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                            <a>Портфолио</a>
+                            <a href="#portfolio">Портфолио</a>
                         </li>
                         <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                            <a>Клиенты</a>
+                            <a href="#clients">Клиенты</a>
                         </li>
                         <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                            <a>Отзывы</a>
+                            <a href="#comments">Отзывы</a>
                         </li>
                         <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                            <a>Контакты</a>
+                            <a href="#contacts">Контакты</a>
                         </li>
                     </ul>
                     <div class="hidden lg:flex">
@@ -70,7 +70,7 @@
     </header>
 
     <main class="bg-[#2C2E2D] py-20">
-        <section class="container-sm">
+        <section id="about" class="container-sm">
             <div class="flex flex-col">
                 <div class="relative max-w-[105px]">
                     <p class="font-mont text-[#F7F7FD] font-semibold text-3xl">О нас</p>
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-sm py-20">
+        <section id="portfolio" class="container-sm py-20">
             <div class="flex flex-col">
                 <div class="relative max-w-[195px]">
                     <p class="font-mont text-[#F7F7FD] font-semibold text-3xl">Портфолио</p>
@@ -167,7 +167,7 @@
                 </div>
             </div>
         </section>
-        <section class="hidden md:block container-sm pt-10 pb-20">
+        <section id="clients" class="hidden md:block container-sm pt-10 pb-20">
             <div class="relative max-w-[252px]">
                 <p class="font-mont text-[#F7F7FD] font-semibold text-3xl">Наши клиенты</p>
                 <div class="absolute bottom-1 right-0">
@@ -185,7 +185,7 @@
             </div>
         </section>
 
-        <section class="bg-questions rounded-[50px] lg:rounded-[90px] py-20 md:py-44">
+        <section id="questions" class="bg-questions rounded-[50px] lg:rounded-[90px] py-20 md:py-44">
             <div class="container-sm h-full">
                 <p class="text-3xl md:text-4xl font-mont text-[#F7F7FD] font-bold uppercase max-w-[500px] mb-10">Ответь на 3 вопроса и узнай стоимость будущего ролика!</p>
                 <button class="flex items-center space-x-4 bg-btn font-mont font-semibold px-5 py-4 rounded-[20px] text-white shadow">
@@ -195,7 +195,7 @@
             </div>
         </section>
 
-        <section class="container-sm pt-20 pb-10">
+        <section id="comments" class="container-sm pt-20 pb-10">
             <div class="relative max-w-[445px]">
                 <p class="font-mont text-[#F7F7FD] font-semibold text-3xl">Что говорят клиенты о нас</p>
                 <div class="absolute bottom-1.5 right-0">
@@ -317,20 +317,20 @@
                     </div>
                 </div>
                 <div class="flex flex-col space-y-3">
-                    <a class="text-[#ECF7F5] font-light">Наши услуги</a>
-                    <a class="text-[#ECF7F5] font-light">Процесс раборты</a>
-                    <a class="text-[#ECF7F5] font-light">Прайс лист</a>
-                    <a class="text-[#ECF7F5] font-light">Портфолио</a>
-                    <a class="text-[#ECF7F5] font-light">Отзывы</a>
+                    <a href="#" class="text-[#ECF7F5] font-light">Наши услуги</a>
+                    <a href="#" class="text-[#ECF7F5] font-light">Процесс работы</a>
+                    <a href="#" class="text-[#ECF7F5] font-light">Прайс лист</a>
+                    <a href="#portfolio" class="text-[#ECF7F5] font-light">Портфолио</a>
+                    <a href="#comments" class="text-[#ECF7F5] font-light">Отзывы</a>
                 </div>
-                <div class="flex flex-col space-y-4">
+                <div id="contacts" class="flex flex-col space-y-4">
                     <div class="flex items-center space-x-2">
                         <img src="./imgs/phone.svg" >
-                        <p class="text-[#ECF7F5] font-light">+7 (707) 333-43-86</p>
+                        <a href="tel:+77073334386" class="text-[#ECF7F5] font-light">+7 (707) 333-43-86</a>
                     </div>
                     <div class="flex items-center space-x-2">
                         <img src="./imgs/email.svg" >
-                        <p class="text-[#ECF7F5] font-light">webdigitalkz@gmail.com</p>
+                        <a href="mailto:webdigitalkz@gmail.com" class="text-[#ECF7F5] font-light">webdigitalkz@gmail.com</a>
                     </div>
                     <div class="flex items-center space-x-2">
                         <img src="./imgs/location.svg" >
@@ -356,19 +356,19 @@
             
             <ul class="flex flex-col space-y-6">
                 <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                    <a>О нас</a>
+                    <a href="#about">О нас</a>
                 </li>
                 <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                    <a>Портфолио</a>
+                    <a href="#portfolio">Портфолио</a>
                 </li>
                 <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                    <a>Клиенты</a>
+                    <a href="#clients">Клиенты</a>
                 </li>
                 <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                    <a>Отзывы</a>
+                    <a href="#comments">Отзывы</a>
                 </li>
                 <li class="text-[#F7F7FD] font-light hover:cursor-pointer hover:font-medium">
-                    <a>Контакты</a>
+                    <a href="#contacts">Контакты</a>
                 </li>
             </ul>
             
